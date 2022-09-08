@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>WholeShop</title>
+</head>
+<body>
+    <header>
+        <div class="overlay"></div>
+        <nav>
+            <h2>SHOP</h2>
+            <ul>
+                <li><a href="index.html" style="color: rgb(15, 0, 0);"><ion-icon name="home"></ion-icon> Home</a></li>
+                <li><a href="#" style="color: rgb(0, 0, 13);">About</a></li>
+                <li class="cart">
+                    <a href="cart.html">
+                        <ion-icon name="basket"></ion-icon><b style="color: rgb(0, 12, 12);"> Cart </b><span style="color: rgb(14, 1, 1);">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="image">
+            <img src="images/greytshirt.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 500</h3>
+            <a class="add-cart cart1" href="#">Add Cart</a>
+            <!-- <input type="hidden" value="15"/> -->
+        </div>
+        <div class="image">
+            <img src="images/redtshirt.jpg" alt="s1">
+            <h3>Red Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/blacktshirt.jpg" alt="s1">
+            <h3>Black Tshirt</h3>
+            <h3>₹ 400</h3>
+            <a class="add-cart cart3" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/greentshirt.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 450</h3>
+            <a class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/whitetshirt.jpg" alt="s1">
+            <h3>White Tshirt</h3>
+            <h3>₹ 550</h3>
+            <a class="add-cart cart5" href="#">Add Cart</a>
+        </div>
+        <!-- <div class="image">
+            <img src="images/s7.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart6" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s8.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart7" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s9.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart8" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s10.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart9" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s11.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart10" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s12.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart11" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s13.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart12" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s14.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart13" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s15.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart14" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s16.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart15" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s17.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart16" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s18.jpeg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart17" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s19.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart18" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s20.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart19" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s21.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart20" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s2.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart1" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s3.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s4.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart3" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s5.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s6.png" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart5" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s7.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart6" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s8.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart7" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s9.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart8" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s10.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart9" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s11.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart10" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s12.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart11" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s13.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart12" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s14.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart13" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s15.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart14" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s16.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart15" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s17.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart16" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s18.jpeg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart17" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s19.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart18" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s20.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart19" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s21.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart20" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s2.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart1" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s3.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s4.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart3" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s5.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s6.png" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart5" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s7.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart6" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s8.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart7" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s9.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart8" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s10.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart9" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s11.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart10" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s12.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart11" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s13.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart12" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s14.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart13" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s15.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart14" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s16.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart15" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s17.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart16" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s18.jpeg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart17" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s19.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart18" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s20.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart19" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s21.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart20" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s2.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart1" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s3.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s4.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart3" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s5.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s6.png" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart5" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s7.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart6" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s8.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart7" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s9.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart8" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s10.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart9" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s11.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart10" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s12.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart11" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s13.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart12" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s14.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart13" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s15.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart14" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s16.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart15" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s17.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart16" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s18.jpeg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart17" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s19.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart18" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s20.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart19" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s21.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart20" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s2.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart1" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s3.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart2" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s4.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart3" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s5.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart4" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s6.png" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart5" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s7.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart6" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s8.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart7" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s9.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart8" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s10.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart9" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s11.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart10" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s12.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart11" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s13.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart12" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s14.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart13" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s15.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart14" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s16.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart15" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s17.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart16" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s18.jpeg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart17" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s19.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart18" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s20.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart19" href="#">Add Cart</a>
+        </div>
+        <div class="image">
+            <img src="images/s21.jpg" alt="s1">
+            <h3>Grey Tshirt</h3>
+            <h3>₹ 600</h3>
+            <a class="add-cart cart20" href="#">Add Cart</a>
+        </div> -->
+
+    </div>
+
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="main.js"></script>
+</html>
